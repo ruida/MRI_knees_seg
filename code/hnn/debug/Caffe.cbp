@@ -1,0 +1,1855 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="Caffe" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\External\;CMake Files\cmake\Modules\;CMake Files\cmake\Templates\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\usr\share\OpenCV\;CMake Files\src\;CMake Files\src\gtest\;CMake Files\src\caffe\;CMake Files\src\caffe\test\;CMake Files\tools\;CMake Files\python\;CMake Files\matlab\;CMake Files\docs\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="lint">
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 lint" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pytest">
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 pytest" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="symlink_to_build">
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 symlink_to_build" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtest">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/lib/libgtest-d.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/src/gtest" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/gtest/Makefile&quot;  VERBOSE=1 gtest" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/gtest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/gtest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtest/fast">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/lib/libgtest-d.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/src/gtest" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/gtest/Makefile&quot;  VERBOSE=1 gtest/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/gtest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/gtest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="caffe">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/lib/libcaffe-d.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/Makefile&quot;  VERBOSE=1 caffe" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="caffe/fast">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/lib/libcaffe-d.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/Makefile&quot;  VERBOSE=1 caffe/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="proto">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/lib/libproto-d.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/Makefile&quot;  VERBOSE=1 proto" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="proto/fast">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/lib/libproto-d.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/Makefile&quot;  VERBOSE=1 proto/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="runtest">
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/test" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/test/Makefile&quot;  VERBOSE=1 runtest" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test.testbin">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/test/test.testbin-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/test/Makefile&quot;  VERBOSE=1 test.testbin" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test.testbin/fast">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/test/test.testbin-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/test/Makefile&quot;  VERBOSE=1 test.testbin/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/src/caffe/test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="caffe.bin">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/tools/caffe-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/tools" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 caffe.bin" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="caffe.bin/fast">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/tools/caffe-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/tools" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 caffe.bin/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="compute_image_mean">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/tools/compute_image_mean-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/tools" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 compute_image_mean" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="compute_image_mean/fast">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/tools/compute_image_mean-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/tools" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 compute_image_mean/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="convert_imageset">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/tools/convert_imageset-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/tools" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 convert_imageset" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="convert_imageset/fast">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/tools/convert_imageset-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/tools" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 convert_imageset/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="device_query">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/tools/device_query-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/tools" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 device_query" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="device_query/fast">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/tools/device_query-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/tools" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 device_query/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="extract_features">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/tools/extract_features-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/tools" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 extract_features" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="extract_features/fast">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/tools/extract_features-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/tools" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 extract_features/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="finetune_net">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/tools/finetune_net-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/tools" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 finetune_net" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="finetune_net/fast">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/tools/finetune_net-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/tools" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 finetune_net/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="net_speed_benchmark">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/tools/net_speed_benchmark-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/tools" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 net_speed_benchmark" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="net_speed_benchmark/fast">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/tools/net_speed_benchmark-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/tools" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 net_speed_benchmark/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test_net">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/tools/test_net-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/tools" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 test_net" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test_net/fast">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/tools/test_net-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/tools" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 test_net/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="train_net">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/tools/train_net-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/tools" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 train_net" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="train_net/fast">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/tools/train_net-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/tools" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 train_net/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="upgrade_net_proto_binary">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/tools/upgrade_net_proto_binary-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/tools" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 upgrade_net_proto_binary" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="upgrade_net_proto_binary/fast">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/tools/upgrade_net_proto_binary-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/tools" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 upgrade_net_proto_binary/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="upgrade_net_proto_text">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/tools/upgrade_net_proto_text-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/tools" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 upgrade_net_proto_text" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="upgrade_net_proto_text/fast">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/tools/upgrade_net_proto_text-d" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/tools" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 upgrade_net_proto_text/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/tools/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pycaffe">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/lib/_caffe-d.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/python" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/python/Makefile&quot;  VERBOSE=1 pycaffe" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/python/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/python/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/python/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pycaffe/fast">
+         <Option output="/home/rothhr/Code/HED/hed-globalweight/debug/lib/_caffe-d.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/rothhr/Code/HED/hed-globalweight/debug/python" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/debug/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/include" />
+            <Add directory="/home/rothhr/Code/HED/hed-globalweight/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/python/Makefile&quot;  VERBOSE=1 pycaffe/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/python/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/python/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/rothhr/Code/HED/hed-globalweight/debug/python/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/python/caffe/_caffe.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/blob.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/common.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/data_reader.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/data_transformer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/internal_thread.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layer_factory.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/absval_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/accuracy_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/argmax_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/base_conv_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/base_data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/bnll_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/concat_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/contrastive_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/conv_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/crop_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/cudnn_conv_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/cudnn_pooling_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/cudnn_relu_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/cudnn_sigmoid_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/cudnn_softmax_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/cudnn_tanh_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/deconv_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/dropout_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/dummy_data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/eltwise_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/embed_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/euclidean_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/exp_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/filter_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/flatten_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/hdf5_data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/hdf5_output_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/hinge_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/im2col_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/image_data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/image_labelmap_data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/infogain_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/inner_product_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/log_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/lrn_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/memory_data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/multinomial_logistic_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/mvn_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/neuron_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/pooling_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/power_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/prelu_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/reduction_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/relu_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/reshape_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/sigmoid_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/silence_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/slice_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/softmax_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/softmax_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/split_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/spp_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/tanh_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/threshold_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/tile_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/window_data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/net.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/parallel.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/solver.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/syncedmem.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_accuracy_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_argmax_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_benchmark.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_blob.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_caffe_main.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_common.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_concat_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_contrastive_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_convolution_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_data_transformer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_db.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_deconvolution_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_dummy_data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_eltwise_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_embed_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_euclidean_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_filler.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_filter_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_flatten_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_gradient_based_solver.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_hdf5_output_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_hdf5data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_hinge_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_im2col_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_image_data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_infogain_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_inner_product_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_internal_thread.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_io.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_layer_factory.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_lrn_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_math_functions.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_maxpool_dropout_layers.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_memory_data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_multinomial_logistic_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_mvn_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_net.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_neuron_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_platform.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_pooling_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_power_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_protobuf.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_random_number_generator.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_reduction_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_reshape_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_sigmoid_cross_entropy_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_slice_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_softmax_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_softmax_with_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_solver.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_split_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_spp_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_stochastic_pooling.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_syncedmem.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_tanh_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_threshold_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_tile_layer.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_upgrade_proto.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_util_blas.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/util/benchmark.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/util/blocking_queue.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/util/cudnn.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/util/db.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/util/db_leveldb.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/util/db_lmdb.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/util/hdf5.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/util/im2col.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/util/insert_splits.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/util/io.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/util/math_functions.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/util/signal_handler.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/util/upgrade_proto.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/gtest/gtest-all.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/tools/caffe.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/tools/compute_image_mean.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/tools/convert_imageset.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/tools/device_query.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/tools/extract_features.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/tools/finetune_net.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/tools/net_speed_benchmark.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/tools/test_net.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/tools/train_net.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/tools/upgrade_net_proto_binary.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/tools/upgrade_net_proto_text.cpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/debug/caffe_config.h">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/blob.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/caffe.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/common.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/common_layers.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/data_layers.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/data_reader.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/data_transformer.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/filler.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/internal_thread.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/layer.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/layer_factory.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/loss_layers.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/net.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/neuron_layers.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/parallel.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/python_layer.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/solver.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/syncedmem.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/test/test_caffe_main.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/test/test_gradient_check_util.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/util/benchmark.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/util/blocking_queue.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/util/coords.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/util/cudnn.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/util/db.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/util/db_leveldb.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/util/db_lmdb.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/util/device_alternate.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/util/hdf5.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/util/im2col.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/util/insert_splits.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/util/io.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/util/math_functions.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/util/mkl_alternate.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/util/rng.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/util/signal_handler.h">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/util/upgrade_proto.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/include/caffe/vision_layers.hpp">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/absval_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/base_data_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/bnll_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/concat_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/contrastive_loss_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/conv_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/crop_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/cudnn_conv_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/cudnn_pooling_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/cudnn_relu_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/cudnn_sigmoid_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/cudnn_softmax_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/cudnn_tanh_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/deconv_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/dropout_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/eltwise_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/embed_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/euclidean_loss_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/exp_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/filter_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/hdf5_data_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/hdf5_output_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/im2col_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/inner_product_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/log_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/lrn_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/mvn_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/pooling_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/power_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/prelu_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/reduction_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/relu_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/sigmoid_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/silence_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/slice_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/softmax_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/softmax_loss_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/split_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/tanh_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/threshold_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/layers/tile_layer.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/proto/caffe.proto">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/test_im2col_kernel.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/util/im2col.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/util/math_functions.cu">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/gtest/gtest.h">
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/cmake/Utils.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/cmake/Targets.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/cmake/Misc.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/cmake/Summary.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/cmake/ConfigGen.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/cmake/Dependencies.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/cmake/ProtoBuf.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/cmake/Cuda.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/cmake/External/glog.cmake">
+          <Option virtualFolder="CMake Files\cmake\External\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/cmake/External/gflags.cmake">
+          <Option virtualFolder="CMake Files\cmake\External\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/cmake/External/gflags.cmake">
+          <Option virtualFolder="CMake Files\cmake\External\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/cmake/Modules/FindGFlags.cmake">
+          <Option virtualFolder="CMake Files\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/cmake/Modules/FindGlog.cmake">
+          <Option virtualFolder="CMake Files\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/cmake/Modules/FindLMDB.cmake">
+          <Option virtualFolder="CMake Files\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/cmake/Modules/FindLevelDB.cmake">
+          <Option virtualFolder="CMake Files\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/cmake/Modules/FindSnappy.cmake">
+          <Option virtualFolder="CMake Files\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/cmake/Modules/FindAtlas.cmake">
+          <Option virtualFolder="CMake Files\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/cmake/Modules/FindNumPy.cmake">
+          <Option virtualFolder="CMake Files\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/cmake/Templates/caffe_config.h.in">
+          <Option virtualFolder="CMake Files\cmake\Templates\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/cmake/Templates/CaffeConfig.cmake.in">
+          <Option virtualFolder="CMake Files\cmake\Templates\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/cmake/Templates/CaffeConfig.cmake.in">
+          <Option virtualFolder="CMake Files\cmake\Templates\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/gtest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\gtest\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\caffe\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/src/caffe/test/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\caffe\test\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/tools/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tools\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/python/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\python\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/matlab/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\matlab\" />
+      </Unit>
+      <Unit filename="/home/rothhr/Code/HED/hed-globalweight/docs/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\docs\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
