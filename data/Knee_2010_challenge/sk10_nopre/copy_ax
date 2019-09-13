@@ -2,119 +2,119 @@
 # 10-fold cross-validation for ski10 data
 
 # fold1
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold2/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold1/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold3/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold1/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold4/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold1/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold5/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold1/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold6/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold1/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold7/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold1/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold8/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold1/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold9/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold1/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold10/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold1/axial
+cp $1/sk10_nopre/train/fold2/axial/* $1/sk10_nopre/train_folds/fold1/axial
+cp $1/sk10_nopre/train/fold3/axial/* $1/sk10_nopre/train_folds/fold1/axial
+cp $1/sk10_nopre/train/fold4/axial/* $1/sk10_nopre/train_folds/fold1/axial
+cp $1/sk10_nopre/train/fold5/axial/* $1/sk10_nopre/train_folds/fold1/axial
+cp $1/sk10_nopre/train/fold6/axial/* $1/sk10_nopre/train_folds/fold1/axial
+cp $1/sk10_nopre/train/fold7/axial/* $1/sk10_nopre/train_folds/fold1/axial
+cp $1/sk10_nopre/train/fold8/axial/* $1/sk10_nopre/train_folds/fold1/axial
+cp $1/sk10_nopre/train/fold9/axial/* $1/sk10_nopre/train_folds/fold1/axial
+cp $1/sk10_nopre/train/fold10/axial/* $1/sk10_nopre/train_folds/fold1/axial
 
 
 # fold2
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold1/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold2/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold3/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold2/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold4/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold2/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold5/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold2/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold6/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold2/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold7/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold2/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold8/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold2/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold9/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold2/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold10/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold2/axial
+cp $1/sk10_nopre/train/fold1/axial/* $1/sk10_nopre/train_folds/fold2/axial
+cp $1/sk10_nopre/train/fold3/axial/* $1/sk10_nopre/train_folds/fold2/axial
+cp $1/sk10_nopre/train/fold4/axial/* $1/sk10_nopre/train_folds/fold2/axial
+cp $1/sk10_nopre/train/fold5/axial/* $1/sk10_nopre/train_folds/fold2/axial
+cp $1/sk10_nopre/train/fold6/axial/* $1/sk10_nopre/train_folds/fold2/axial
+cp $1/sk10_nopre/train/fold7/axial/* $1/sk10_nopre/train_folds/fold2/axial
+cp $1/sk10_nopre/train/fold8/axial/* $1/sk10_nopre/train_folds/fold2/axial
+cp $1/sk10_nopre/train/fold9/axial/* $1/sk10_nopre/train_folds/fold2/axial
+cp $1/sk10_nopre/train/fold10/axial/* $1/sk10_nopre/train_folds/fold2/axial
 
 
 
 # fold3
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold1/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold3/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold2/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold3/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold4/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold3/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold5/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold3/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold6/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold3/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold7/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold3/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold8/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold3/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold9/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold3/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold10/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold3/axial
+cp $1/sk10_nopre/train/fold1/axial/* $1/sk10_nopre/train_folds/fold3/axial
+cp $1/sk10_nopre/train/fold2/axial/* $1/sk10_nopre/train_folds/fold3/axial
+cp $1/sk10_nopre/train/fold4/axial/* $1/sk10_nopre/train_folds/fold3/axial
+cp $1/sk10_nopre/train/fold5/axial/* $1/sk10_nopre/train_folds/fold3/axial
+cp $1/sk10_nopre/train/fold6/axial/* $1/sk10_nopre/train_folds/fold3/axial
+cp $1/sk10_nopre/train/fold7/axial/* $1/sk10_nopre/train_folds/fold3/axial
+cp $1/sk10_nopre/train/fold8/axial/* $1/sk10_nopre/train_folds/fold3/axial
+cp $1/sk10_nopre/train/fold9/axial/* $1/sk10_nopre/train_folds/fold3/axial
+cp $1/sk10_nopre/train/fold10/axial/* $1/sk10_nopre/train_folds/fold3/axial
 
 
 # fold4
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold1/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold4/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold2/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold4/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold3/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold4/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold5/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold4/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold6/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold4/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold7/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold4/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold8/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold4/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold9/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold4/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold10/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold4/axial
+cp $1/sk10_nopre/train/fold1/axial/* $1/sk10_nopre/train_folds/fold4/axial
+cp $1/sk10_nopre/train/fold2/axial/* $1/sk10_nopre/train_folds/fold4/axial
+cp $1/sk10_nopre/train/fold3/axial/* $1/sk10_nopre/train_folds/fold4/axial
+cp $1/sk10_nopre/train/fold5/axial/* $1/sk10_nopre/train_folds/fold4/axial
+cp $1/sk10_nopre/train/fold6/axial/* $1/sk10_nopre/train_folds/fold4/axial
+cp $1/sk10_nopre/train/fold7/axial/* $1/sk10_nopre/train_folds/fold4/axial
+cp $1/sk10_nopre/train/fold8/axial/* $1/sk10_nopre/train_folds/fold4/axial
+cp $1/sk10_nopre/train/fold9/axial/* $1/sk10_nopre/train_folds/fold4/axial
+cp $1/sk10_nopre/train/fold10/axial/* $1/sk10_nopre/train_folds/fold4/axial
 
 # fold5
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold1/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold5/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold2/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold5/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold3/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold5/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold4/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold5/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold6/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold5/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold7/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold5/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold8/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold5/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold9/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold5/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold10/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold5/axial
+cp $1/sk10_nopre/train/fold1/axial/* $1/sk10_nopre/train_folds/fold5/axial
+cp $1/sk10_nopre/train/fold2/axial/* $1/sk10_nopre/train_folds/fold5/axial
+cp $1/sk10_nopre/train/fold3/axial/* $1/sk10_nopre/train_folds/fold5/axial
+cp $1/sk10_nopre/train/fold4/axial/* $1/sk10_nopre/train_folds/fold5/axial
+cp $1/sk10_nopre/train/fold6/axial/* $1/sk10_nopre/train_folds/fold5/axial
+cp $1/sk10_nopre/train/fold7/axial/* $1/sk10_nopre/train_folds/fold5/axial
+cp $1/sk10_nopre/train/fold8/axial/* $1/sk10_nopre/train_folds/fold5/axial
+cp $1/sk10_nopre/train/fold9/axial/* $1/sk10_nopre/train_folds/fold5/axial
+cp $1/sk10_nopre/train/fold10/axial/* $1/sk10_nopre/train_folds/fold5/axial
 
 # fold6
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold1/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold6/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold2/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold6/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold3/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold6/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold4/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold6/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold5/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold6/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold7/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold6/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold8/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold6/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold9/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold6/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold10/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold6/axial
+cp $1/sk10_nopre/train/fold1/axial/* $1/sk10_nopre/train_folds/fold6/axial
+cp $1/sk10_nopre/train/fold2/axial/* $1/sk10_nopre/train_folds/fold6/axial
+cp $1/sk10_nopre/train/fold3/axial/* $1/sk10_nopre/train_folds/fold6/axial
+cp $1/sk10_nopre/train/fold4/axial/* $1/sk10_nopre/train_folds/fold6/axial
+cp $1/sk10_nopre/train/fold5/axial/* $1/sk10_nopre/train_folds/fold6/axial
+cp $1/sk10_nopre/train/fold7/axial/* $1/sk10_nopre/train_folds/fold6/axial
+cp $1/sk10_nopre/train/fold8/axial/* $1/sk10_nopre/train_folds/fold6/axial
+cp $1/sk10_nopre/train/fold9/axial/* $1/sk10_nopre/train_folds/fold6/axial
+cp $1/sk10_nopre/train/fold10/axial/* $1/sk10_nopre/train_folds/fold6/axial
 
 
 # fold7
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold1/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold7/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold2/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold7/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold3/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold7/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold4/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold7/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold5/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold7/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold6/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold7/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold8/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold7/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold9/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold7/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold10/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold7/axial
+cp $1/sk10_nopre/train/fold1/axial/* $1/sk10_nopre/train_folds/fold7/axial
+cp $1/sk10_nopre/train/fold2/axial/* $1/sk10_nopre/train_folds/fold7/axial
+cp $1/sk10_nopre/train/fold3/axial/* $1/sk10_nopre/train_folds/fold7/axial
+cp $1/sk10_nopre/train/fold4/axial/* $1/sk10_nopre/train_folds/fold7/axial
+cp $1/sk10_nopre/train/fold5/axial/* $1/sk10_nopre/train_folds/fold7/axial
+cp $1/sk10_nopre/train/fold6/axial/* $1/sk10_nopre/train_folds/fold7/axial
+cp $1/sk10_nopre/train/fold8/axial/* $1/sk10_nopre/train_folds/fold7/axial
+cp $1/sk10_nopre/train/fold9/axial/* $1/sk10_nopre/train_folds/fold7/axial
+cp $1/sk10_nopre/train/fold10/axial/* $1/sk10_nopre/train_folds/fold7/axial
 
 # fold8
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold1/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold8/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold2/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold8/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold3/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold8/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold4/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold8/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold5/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold8/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold6/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold8/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold7/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold8/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold9/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold8/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold10/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold8/axial
+cp $1/sk10_nopre/train/fold1/axial/* $1/sk10_nopre/train_folds/fold8/axial
+cp $1/sk10_nopre/train/fold2/axial/* $1/sk10_nopre/train_folds/fold8/axial
+cp $1/sk10_nopre/train/fold3/axial/* $1/sk10_nopre/train_folds/fold8/axial
+cp $1/sk10_nopre/train/fold4/axial/* $1/sk10_nopre/train_folds/fold8/axial
+cp $1/sk10_nopre/train/fold5/axial/* $1/sk10_nopre/train_folds/fold8/axial
+cp $1/sk10_nopre/train/fold6/axial/* $1/sk10_nopre/train_folds/fold8/axial
+cp $1/sk10_nopre/train/fold7/axial/* $1/sk10_nopre/train_folds/fold8/axial
+cp $1/sk10_nopre/train/fold9/axial/* $1/sk10_nopre/train_folds/fold8/axial
+cp $1/sk10_nopre/train/fold10/axial/* $1/sk10_nopre/train_folds/fold8/axial
 
 # fold9
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold1/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold9/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold2/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold9/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold3/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold9/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold4/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold9/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold5/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold9/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold6/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold9/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold7/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold9/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold8/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold9/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold10/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold9/axial
+cp $1/sk10_nopre/train/fold1/axial/* $1/sk10_nopre/train_folds/fold9/axial
+cp $1/sk10_nopre/train/fold2/axial/* $1/sk10_nopre/train_folds/fold9/axial
+cp $1/sk10_nopre/train/fold3/axial/* $1/sk10_nopre/train_folds/fold9/axial
+cp $1/sk10_nopre/train/fold4/axial/* $1/sk10_nopre/train_folds/fold9/axial
+cp $1/sk10_nopre/train/fold5/axial/* $1/sk10_nopre/train_folds/fold9/axial
+cp $1/sk10_nopre/train/fold6/axial/* $1/sk10_nopre/train_folds/fold9/axial
+cp $1/sk10_nopre/train/fold7/axial/* $1/sk10_nopre/train_folds/fold9/axial
+cp $1/sk10_nopre/train/fold8/axial/* $1/sk10_nopre/train_folds/fold9/axial
+cp $1/sk10_nopre/train/fold10/axial/* $1/sk10_nopre/train_folds/fold9/axial
 
 # fold10
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold1/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold10/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold2/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold10/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold3/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold10/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold4/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold10/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold5/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold10/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold6/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold10/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold7/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold10/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold8/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold10/axial
-cp /scratch/Knee_2010_challenge/sk10_nopre/train/fold9/axial/* /scratch/Knee_2010_challenge/sk10_nopre/train_folds/fold10/axial
+cp $1/sk10_nopre/train/fold1/axial/* $1/sk10_nopre/train_folds/fold10/axial
+cp $1/sk10_nopre/train/fold2/axial/* $1/sk10_nopre/train_folds/fold10/axial
+cp $1/sk10_nopre/train/fold3/axial/* $1/sk10_nopre/train_folds/fold10/axial
+cp $1/sk10_nopre/train/fold4/axial/* $1/sk10_nopre/train_folds/fold10/axial
+cp $1/sk10_nopre/train/fold5/axial/* $1/sk10_nopre/train_folds/fold10/axial
+cp $1/sk10_nopre/train/fold6/axial/* $1/sk10_nopre/train_folds/fold10/axial
+cp $1/sk10_nopre/train/fold7/axial/* $1/sk10_nopre/train_folds/fold10/axial
+cp $1/sk10_nopre/train/fold8/axial/* $1/sk10_nopre/train_folds/fold10/axial
+cp $1/sk10_nopre/train/fold9/axial/* $1/sk10_nopre/train_folds/fold10/axial
 
 
 
