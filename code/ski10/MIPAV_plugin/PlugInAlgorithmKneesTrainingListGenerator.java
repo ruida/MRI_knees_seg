@@ -86,33 +86,37 @@ public class PlugInAlgorithmKneesTrainingListGenerator extends AlgorithmBase {
 			for (String orientation_key : key_orientation ) {
 				
 				image_path_vector = image_foldTable.get(orientation_key);
-				voi_path_vector = voi_foldTable.get(orientation_key);
 				
-				fullpath = image_path_vector.get(0);
-				index = fullpath.lastIndexOf(File.separator);
-				upper_oneLevel = fullpath.substring(0, index);
-				index = upper_oneLevel.lastIndexOf(File.separator);
-				upper_twoLevel = upper_oneLevel.substring(0, index);
-				
-				System.err.println("upper_twoLevel = " + upper_twoLevel);
-		
-				try {
-					PrintWriter fileWriter = new PrintWriter(
-							new FileWriter(upper_twoLevel + File.separator + orientation_key + ".lst")); 
-					len = image_path_vector.size();
-
-					for (i = 0; i < len; i++) {
-						imageName = image_path_vector.get(i);
-						voiName = voi_path_vector.get(i);
-						fileWriter.write(imageName + " " + voiName + "\n");
+				if ( image_path_vector.size() >= 1 ) {
+					
+					image_path_vector = image_foldTable.get(orientation_key);
+					voi_path_vector = voi_foldTable.get(orientation_key);
+					
+					fullpath = image_path_vector.get(0);
+					index = fullpath.lastIndexOf(File.separator);
+					upper_oneLevel = fullpath.substring(0, index);
+					index = upper_oneLevel.lastIndexOf(File.separator);
+					upper_twoLevel = upper_oneLevel.substring(0, index);
+					
+					System.err.println("upper_twoLevel = " + upper_twoLevel);
+			
+					try {
+						PrintWriter fileWriter = new PrintWriter(
+								new FileWriter(upper_twoLevel + File.separator + orientation_key + ".lst")); 
+						len = image_path_vector.size();
+	
+						for (i = 0; i < len; i++) {
+							imageName = image_path_vector.get(i);
+							voiName = voi_path_vector.get(i);
+							fileWriter.write(imageName + " " + voiName + "\n");
+						}
+						fileWriter.close();
+						System.err.println("text write finish");
+					} catch (IOException e) {
+						e.printStackTrace();
 					}
-					fileWriter.close();
-					System.err.println("text write finish");
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
 				 
-			   
+				}
 				
 			}
 			
@@ -179,7 +183,7 @@ public class PlugInAlgorithmKneesTrainingListGenerator extends AlgorithmBase {
 				for (j = 0; j < len; j++) {
 					imageName = imageNameTable.get(j);
 					if (imageName != null) {
-						// System.err.println("imageName = " + imageName);
+						System.err.println("imageName = " + imageName);
 						image_path_vector.add(imageName);
 					}
 				}
@@ -300,4 +304,5 @@ public class PlugInAlgorithmKneesTrainingListGenerator extends AlgorithmBase {
       
 	
 }
+
 
